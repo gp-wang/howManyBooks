@@ -1,0 +1,23 @@
+howManyBooks:
+  Given inputs of initial price, discount, floor price and budget it should return the number of books that can be purchased along with any remaining money after the purchase.
+
+
+How to use:
+  1. compile the program:
+    (Make sure you are inside the "src" folder)
+    javac com/tokbox/interview/Solution.java
+
+  2. run the program:
+    (Make sure you are inside the "src" folder)
+    java com.tokbox.interview.Solution
+
+  3. (while the program is running):
+     "test": will run pre-defined unit tests
+     "exit": will exit the program
+     "<initialPrice> <discount> <floorPrice> <budget>": will calculate the number of book purchased, and remaining money
+        e.g.: sample input: 50 4 25 300
+        sample output:
+            input: initialPrice=50 discount=4 floorPrice=25 budget=300
+            Purchasing Result: book=8, remaining=9
+
+
